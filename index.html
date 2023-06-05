@@ -1,101 +1,193 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="кг" style="background-color: aliceblue;">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="./styles.css">
-	<title>Flex</title>
+	<title>ДЗ | Трифанова</title>
+	<style>
+		table {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+   }
+   td, th {
+    padding: 3px; /* Поля вокруг содержимого таблицы */
+    border: 1px solid black; /* Параметры рамки */
+   }
+	</style>
 </head>
 
-<body>
-	<!--<div class="container">
-
-		<div class="flex-wrapper">
-			<div class="card">
-				<div class="card-header">
-					<img src="https://via.placeholder.com/600/92c952" alt="изображние поста">
-				</div>
-				<div class="card-body">
-					id поста: 0
-				</div>
-				<div class="ard-footer">
-					<h2>Заголовок</h2>
-				</div>
-			</div>
-		</div>
-	</div>-->
-	<!--<div class="items">
-		<div class="item">
-			<div class="col">
-				<img src="" alt="">
-			</div>
-			<div class="col">
-				<h3></h3>
-				<p></p>
-			</div>
-		</div>
-	</div>-->
-
-	<!--<div class="card">
-		<a href="#" class="card-link"></a>
-		<div class="card-header">header</div>
-		<div class="card-main">main</div>
-		<div class="card-footer">footer</div>
+<body style="max-width: 800px; margin: 0 auto;">
+	<h1>Я решил выучить html</h1>
+	<p>Я узнал что оказывается существует много разных версий html,
+		а точнее их 5. И самая современная считается - <i>пятая версия.</i>
+		Также я узнал что есть теги например теги h1-h6 Являются <b>заголовками</b>
+		а теги p,span,i,b Являются текстовыми. Чтобы добавить обзац, выделить главную мыль, сделать текст курсивным и жирным
+		также познакомился с блоками или div тегами
+	</p>
+	<h2>Решил попробовать изучить подробнее</h2>
+	<p>Так и попробовал теги a, img, video И вот что получилось</p>
+	<a href="http://htmlbook.ru/" target="_blank">Здесь я учил теги</a>
+	<div style="margin: 30px 0;">
+		<img src="./wwwhtmlbookru.png" alt="Здесь я смотрел теги" style="box-shadow: 7px 7px 3px #eee;">
 	</div>
+	<form action="">
+		<input type="text" list="phonelist" placeholder="Введите фамилию">
+	</form>
+	<datalist id="phonelist">
+		<option value="Абдувалиева">Абдувалиева</option>
+		<option value="Ашурбаев">Ашурбаев</option>
+		<option value="Акопова">Акопова</option>
+		<option value="Динунц">Динунц</option>
+		<option value="Акопян">Акопян</option>
+		<option value="Кушаков">Кушаков</option>
+		<option value="Анвархонова">Анвархонова</option>
+		<option value="Ли">Ли</option>
+		<option value="Березуцкая">Березуцкая</option>
+		<option value="Бобоназарова">Бобоназарова</option>
+		<option value="Ибрагимова">Ибрагимова</option>
+		<option value="Назаров">Назаров</option>
+		<option value="Ильясова">Ильясова</option>
+		<option value="Нархужа">Нархужа</option>
+		<option value="Матюшкина">Матюшкина</option>
+		<option value="Махмудова">Махмудова</option>
+		<option value="Собирхужаева">Собирхужаева</option>
+		<option value="Трифанов">Трифанов</option>
+		<option value="Солтановская">Солтановская</option>
+		<option value="Умаров">Умаров</option>
+		<option value="Суннатиллаева">Суннатиллаева</option>
+		<option value="Хечикян">Хечикян</option>
+		<option value="Шакиров">Шакиров</option>
+		<option value="Турдиева">Турдиева</option>
+		<option value="Янгибоев">Янгибоев</option>
+		<option value="Тухтабаева">Тухтабаева</option>
+	</datalist>
+	<h2>Плюсы выпонения этой работы</h2>
 	<ul>
-		<li><a href="">1 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li><a href="">2 link</a></li>
-		<li>1 link</li>
-	</ul>-->
-
-
-	<table>
+		<li>Интересно</li>
+		<li>Много нового</li>
+	</ul>
+	<h2>Минусы выпонения этой работы</h2>
+	<ul>
+		<li>Устал сидеть</li>
+		<li>Спина болит</li>
+	</ul>
+	<h3>Список одноклассников</h3>
+	<table colspan="">
 		<thead>
 			<tr>
-				<th>1</th>
-				<th>1</th>
-				<th>1</th>
+				<th colspan="2">№</th>
+				<th colspan="4">Фамилия</th>
 			</tr>
 		</thead>
-		<tfoot>
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td>1</td>
-			</tr>
-		</tfoot>
 		<tbody>
 			<tr>
-				<td>изображение</td>
-				<td>Табличка для фотосессий</td>
-				<td>счетчик</td>
-				<td>7500</td>
-				<td>75000</td>
+				<td colspan="4">1</td>
+				<td colspan="4">Абдувалиева</td>
 			</tr>
 			<tr>
-				<td>изображение</td>
-				<td>Табличка для фотосессий</td>
-				<td>счетчик</td>
-				<td>7500</td>
-				<td>75000</td>
+				<td colspan="4">2</td>
+				<td colspan="4">Ашурбаев</td>
+			</tr>
+			<tr>
+				<td colspan="4">3</td>
+				<td colspan="4">Акопова</td>
+			</tr>
+			<tr>
+				<td colspan="4">4</td>
+				<td colspan="4">Динунц</td>
+			</tr>
+			<tr>
+				<td colspan="4">5</td>
+				<td colspan="4">Акопян</td>
+			</tr>
+			<tr>
+				<td colspan="4">6</td>
+				<td colspan="4">Кушаков</td>
+			</tr>
+			<tr>
+				<td colspan="4">7</td>
+				<td colspan="4">Анвархонова</td>
+			</tr>
+			<tr>
+				<td colspan="4">8</td>
+				<td colspan="4">Ли</td>
+			</tr>
+			<tr>
+				<td colspan="4">9</td>
+				<td colspan="4">Березуцкая</td>
+			</tr>
+			<tr>
+				<td colspan="4">10</td>
+				<td colspan="4">Бобоназарова</td>
+			</tr>
+			<tr>
+				<td colspan="4">11</td>
+				<td colspan="4">Ибрагимова</td>
+			</tr>
+			<tr>
+				<td colspan="4">12</td>
+				<td colspan="4">Назаров</td>
+			</tr>
+			<tr>
+				<td colspan="4">13</td>
+				<td colspan="4">Ильясова</td>
+			</tr>
+			<tr>
+				<td colspan="4">14</td>
+				<td colspan="4">Нархужа</td>
+			</tr>
+			<tr>
+				<td colspan="4">15</td>
+				<td colspan="4">Матюшкина</td>
+			</tr>
+			<tr>
+				<td colspan="4">16</td>
+				<td colspan="4">Махмудова</td>
+			</tr>
+			<tr>
+				<td colspan="4">17</td>
+				<td colspan="4">Собирхужаева</td>
+			</tr>
+			<tr>
+				<td colspan="4">18</td>
+				<td colspan="4">Трифанов</td>
+			</tr>
+			<tr>
+				<td colspan="4">19</td>
+				<td colspan="4">Солтановская</td>
+			</tr>
+			<tr>
+				<td colspan="4">20</td>
+				<td colspan="4">Умаров</td>
+			</tr>
+			<tr>
+				<td colspan="4">21</td>
+				<td colspan="4">Суннатиллаева</td>
+			</tr>
+			<tr>
+				<td colspan="4">22</td>
+				<td colspan="4">Хечикян</td>
+			</tr>
+			<tr>
+				<td colspan="4">23</td>
+				<td colspan="4">Шакиров</td>
+			</tr>
+			<tr>
+				<td colspan="4">24</td>
+				<td colspan="4">Турдиева</td>
+			</tr>
+			<tr>
+				<td colspan="4">25</td>
+				<td colspan="4">Янгибоев</td>
+			</tr>
+			<tr>
+				<td colspan="4">26</td>
+				<td colspan="4">Тухтабаева</td>
 			</tr>
 		</tbody>
 	</table>
-	<form action="">
-		<input type="search" style="width: 100%;">
-	</form>
-
 </body>
-<script src="./app.js"></script>
 
 </html>
